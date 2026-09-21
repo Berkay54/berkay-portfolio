@@ -224,11 +224,11 @@ function createParticles() {
     let particleCount;
 
     if (canvas.width < 500) {
-    particleCount = 25;
-} else if (canvas.width < 1000) {
-    particleCount = 35;
-} else {
     particleCount = 50;
+} else if (canvas.width < 1000) {
+    particleCount = 65;
+} else {
+    particleCount = 85;
 }
 
 

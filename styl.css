@@ -688,15 +688,11 @@ a{
 ========================= */
 
 .project-image {
-    position: relative;
-    padding: 10px;
-
-    background: #0c1220;
-
-    border: 1px solid rgba(118, 87, 255, 0.25);
-    border-radius: 18px;
-
+    width: 100%;
+    height: auto;
     overflow: hidden;
+    border-radius: 18px;
+    border: 1px solid rgba(118, 87, 255, 0.25);
 }
 
 .project-image::after {
@@ -718,11 +714,9 @@ a{
 
 .project-image img {
     width: 100%;
+    height: auto;
     display: block;
-
-    border-radius: 10px;
-
-    transition: transform 0.4s ease;
+    object-fit: initial;
 }
 
 
@@ -2281,9 +2275,7 @@ a{
         order: initial;
     }
 
-    .project-image {
-        height: 380px;
-    }
+
 
 
      .skills {
@@ -2343,6 +2335,9 @@ a{
 }
 
 
+
+
+
 @media (max-width: 600px) {
 
     .projects {
@@ -2353,11 +2348,7 @@ a{
         margin-bottom: 55px;
     }
 
-    .project-image {
-        height: 250px;
-
-        border-radius: 12px;
-    }
+ 
 
     .project-content h3 {
         font-size: 34px;
