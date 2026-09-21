@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+>
+    <link rel="stylesheet" href="styl.css">
+    <title>Berkay | Web Developer</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            BD<span>.</span>
+        </a>
+<!-- Checkbox -->
+        <input type="checkbox" id="menu-toggle">
+        <nav class="navbar">
+            <a href="#home" class="active">Anasayfa</a>
+            <a href="#about">Hakkımda</a>
+            <a href="#projects">Projeler</a>
+            <a href="#skilss">Yetenekler</a>
+            <a href="#contact">İletişim</a>
+        </nav>
+
+        <a href="#contact" class="contact-btn">
+            İletişime Geç
+        </a>
+
+        <!-- Hamburger -->
+         <label for="menu-toggle" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+         </label>
+
+    </header>
+
+    <main>
+
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <span class="hero-label">
+                    MERHABA, BEN BERKAY
+                </span>
+                <h1>
+                    Web <span>Developer</span>
+                </h1>
+
+                <h2>
+                    Fikirleri Gerçeğe Dönüştürüyorum.
+                </h2>
+
+                <p>
+                      Modern, hızlı ve kullanıcı odaklı web deneyimleri
+                    tasarlıyor, temiz kod ile fikirleri dijital dünyada
+                    hayata geçiriyorum.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="primary-btn">
+                        Projelerimi Keşfet  →
+                    </a>
+
+                    <a href="#contact" class="secondary-btn">
+                        Benimle İletişime Geç
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                     <a href="#" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                     <a href="#" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                     <a href="mailto:bdobrucal09@gmail.com" aria-label="E-posta">
+                          <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
+
+                <a href="#projects" class="scroll-down">
+                    <span class="mouse">
+                        <span class="mouse-wheel"></span>
+                    </span>
+                    <span>Aşağı Kaydır</span>
+                </a>
+            </div>
+
+                        <!-- JavaScript animasyonumuz burada olacak -->
+
+                        <div class="hero-animation">
+                            <canvas id="networkCanvas"></canvas>
+
+                               <div class="tech-tag tag-code">&lt;/&gt;</div>
+    <div class="tech-tag tag-js">JavaScript</div>
+    <div class="tech-tag tag-react">React</div>
+    <div class="tech-tag tag-html">HTML</div>
+    <div class="tech-tag tag-css">CSS</div>
+    <div class="tech-tag tag-node">Node.js</div>
+                        </div>
+
+
+        </section>
+
+
+        <section class="projects" id="projects">
+
+    <div class="section-heading reveal">
+
+        <span class="section-label">SEÇİLMİŞ ÇALIŞMALAR</span>
+
+        <h2>
+            Projeler<span>.</span>
+        </h2>
+
+        <p>
+            Tasarladığım ve geliştirdiğim bazı web projeleri ve
+            uygulamalar.
+        </p>
+
+    </div>
+
+
+    <div class="projects-container">
+
+        <!-- PROJECT 01 -->
+        <article class="project-card">
+
+            <div class="project-image reveal-left">
+
+                <img
+                    src="assets/images/parkbul.jpg"
+                    alt="ParkBul uygulaması"
+                >
+
+                <span class="project-number">01</span>
+
+            </div>
+
+
+            <div class="project-content reveal-right">
+
+                <span class="project-type">
+                    WEB APPLICATION
+                </span>
+
+                <h3>ParkBul</h3>
+
+                <p>
+                    Kullanıcının konumuna veya seçtiği hedefe göre
+                    yakındaki otoparkları harita üzerinde gösteren
+                    modern bir web uygulaması.
+                </p>
+
+
+                <div class="project-tech">
+                    <span>React</span>
+                    <span>JavaScript</span>
+                    <span>Vite</span>
+                    <span>API</span>
+                </div>
+
+
+                <div class="project-links">
+
+                    <a href="#" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        Canlı Demo
+                    </a>
+
+                    <a href="#" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                        GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 02 -->
+        <article class="project-card reverse">
+
+            <div class="project-image reveal-right">
+
+                <img
+                    src="assets/images/wheelshift.jpg"
+                    alt="WheelShift araç kiralama sitesi"
+                >
+
+                <span class="project-number">02</span>
+
+            </div>
+
+
+            <div class="project-content reveal-left">
+
+                <span class="project-type">
+                    WEB DESIGN
+                </span>
+
+                <h3>WheelShift</h3>
+
+                <p>
+                    Lüks araç kiralama firmaları için hazırlanan,
+                    modern ve tamamen responsive web sitesi tasarımı.
+                </p>
+
+
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Responsive</span>
+                </div>
+
+
+                <div class="project-links">
+
+                    <a href="#" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        Canlı Demo
+                    </a>
+
+                    <a href="#" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                        GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 03 -->
+        <article class="project-card">
+
+            <div class="project-image reveal-left">
+
+                <img
+                    src="assets/images/mert-veterinerlik.jpg"
+                    alt="Mert Veterinerlik web sitesi"
+                >
+
+                <span class="project-number">03</span>
+
+            </div>
+
+
+            <div class="project-content reveal-right">
+
+                <span class="project-type">
+                    CORPORATE WEBSITE
+                </span>
+
+                <h3>Mert Veterinerlik</h3>
+
+                <p>
+                    Kanatlı hayvan ekipmanları ve otomasyon sistemleri
+                    sunan firma için geliştirilen kurumsal web sitesi.
+                </p>
+
+
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Responsive</span>
+                </div>
+
+
+                <div class="project-links">
+
+                    <a href="#" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        Canlı Demo
+                    </a>
+
+                    <a href="#" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                        GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+
+        <!-- PROJECT 04 -->
+        <article class="project-card reverse">
+
+            <div class="project-image reveal-right">
+
+                <img
+                    src="assets/images/akdagtemizlik.jpg"
+                    alt="Akdağ Temizlik web sitesi"
+                >
+
+                <span class="project-number">04</span>
+
+            </div>
+
+
+            <div class="project-content reveal-left">
+
+                <span class="project-type">
+                    WEB DESIGN
+                </span>
+
+                <h3>Akdağ Temizlik</h3>
+
+                <p>
+                    İzmir içinde apartman, merdiven, villa temizliği yapan bir temizlik firması 
+                </p>
+
+
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Responsive</span>
+                </div>
+
+
+                <div class="project-links">
+
+                    <a href="#" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        Canlı Demo
+                    </a>
+
+                    <a href="#" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                        GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+
+<section class="skills" id="skills">
+
+    <div class="section-heading skills-heading reveal">
+
+        <span class="section-label">
+            KULLANDIĞIM TEKNOLOJİLER
+        </span>
+
+        <h2>
+            Tech Stack<span>.</span>
+        </h2>
+
+        <p>
+            Modern ve kullanıcı odaklı web deneyimleri geliştirirken
+            kullandığım teknolojiler ve araçlar.
+        </p>
+
+    </div>
+
+
+    <div class="skills-grid">
+
+        <!-- HTML -->
+        <div class="skill-card skill-reveal">
+
+            <div class="skill-icon html-icon">
+                <i class="fa-brands fa-html5"></i>
+            </div>
+
+            <div class="skill-info">
+                <h3>HTML5</h3>
+                <p>Semantic & Accessible</p>
+            </div>
+
+            <span class="skill-number">01</span>
+
+        </div>
+
+
+        <!-- CSS -->
+        <div class="skill-card skill-reveal">
+
+            <div class="skill-icon css-icon">
+                <i class="fa-brands fa-css3-alt"></i>
+            </div>
+
+            <div class="skill-info">
+                <h3>CSS3</h3>
+                <p>Modern & Responsive</p>
+            </div>
+
+            <span class="skill-number">02</span>
+
+        </div>
+
+
+        <!-- JAVASCRIPT -->
+        <div class="skill-card skill-reveal">
+
+            <div class="skill-icon js-icon">
+                <i class="fa-brands fa-js"></i>
+            </div>
+
+            <div class="skill-info">
+                <h3>JavaScript</h3>
+                <p>Interactive Experiences</p>
+            </div>
+
+            <span class="skill-number">03</span>
+
+        </div>
+
+
+        <!-- REACT -->
+        <div class="skill-card skill-reveal">
+
+            <div class="skill-icon react-icon">
+                <i class="fa-brands fa-react"></i>
+            </div>
+
+            <div class="skill-info">
+                <h3>React</h3>
+                <p>Component Based UI</p>
+            </div>
+
+            <span class="skill-number">04</span>
+
+        </div>
+
+
+        <!-- GIT -->
+        <div class="skill-card skill-reveal">
+
+            <div class="skill-icon git-icon">
+                <i class="fa-brands fa-git-alt"></i>
+            </div>
+
+            <div class="skill-info">
+                <h3>Git</h3>
+                <p>Version Control</p>
+            </div>
+
+            <span class="skill-number">05</span>
+
+        </div>
+
+
+        <!-- GITHUB -->
+        <div class="skill-card skill-reveal">
+
+            <div class="skill-icon github-icon">
+                <i class="fa-brands fa-github"></i>
+            </div>
+
+            <div class="skill-info">
+                <h3>GitHub</h3>
+                <p>Code & Collaboration</p>
+            </div>
+
+            <span class="skill-number">06</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="about" id="about">
+
+    <div class="about-container">
+
+        <!-- SOL TARAF -->
+        <div class="about-left reveal-left">
+
+            <span class="section-label">
+                BEN KİMİM?
+            </span>
+
+            <h2>
+                Kodun Ötesinde<span>.</span>
+            </h2>
+
+            <div class="about-line"></div>
+
+            <p class="about-lead">
+                Merhaba, ben Berkay. Modern web teknolojilerini
+                kullanarak fikirleri işlevsel ve etkileyici dijital
+                deneyimlere dönüştürüyorum.
+            </p>
+
+            <p class="about-text">
+                Web geliştirme yolculuğumda sadece çalışan sayfalar
+                oluşturmak yerine; kullanıcı deneyimi, responsive
+                tasarım, performans ve temiz kod yapısına önem veriyorum.
+            </p>
+
+            <p class="about-text">
+                Yeni teknolojiler öğrenmeyi, gerçek problemler üzerine
+                projeler geliştirmeyi ve her projede kendimi biraz daha
+                ileri taşımayı seviyorum.
+            </p>
+
+            <a href="#contact" class="about-btn">
+                Birlikte Çalışalım
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <!-- SAĞ TARAF -->
+        <div class="about-right reveal-right">
+
+            <div class="about-feature">
+
+                <span class="feature-number">01</span>
+
+                <div>
+                    <h3>Web Development</h3>
+
+                    <p>
+                        Modern, hızlı ve sürdürülebilir web
+                        uygulamaları geliştiriyorum.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="about-feature">
+
+                <span class="feature-number">02</span>
+
+                <div>
+                    <h3>Responsive Design</h3>
+
+                    <p>
+                        Masaüstü, tablet ve mobil cihazlarda
+                        sorunsuz çalışan arayüzler tasarlıyorum.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="about-feature">
+
+                <span class="feature-number">03</span>
+
+                <div>
+                    <h3>Problem Solving</h3>
+
+                    <p>
+                        Karmaşık problemleri sade ve kullanılabilir
+                        çözümlere dönüştürmeyi seviyorum.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="about-feature">
+
+                <span class="feature-number">04</span>
+
+                <div>
+                    <h3>Continuous Learning</h3>
+
+                    <p>
+                        Yeni teknolojileri öğrenerek geliştirme
+                        becerilerimi sürekli ileri taşıyorum.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ALT İSTATİSTİKLER -->
+
+    <div class="about-stats reveal">
+
+        <div class="stat">
+            <strong>10+</strong>
+            <span>Tamamlanan Proje</span>
+        </div>
+
+        <div class="stat">
+            <strong>6+</strong>
+            <span>Kullanılan Teknoloji</span>
+        </div>
+
+        <div class="stat">
+            <strong>100%</strong>
+            <span>Responsive Tasarım</span>
+        </div>
+
+        <div class="stat">
+            <strong>∞</strong>
+            <span>Öğrenme İsteği</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="contact" id="contact">
+
+    <div class="contact-container">
+
+        <!-- SOL TARAF -->
+        <div class="contact-left reveal-left">
+
+            <span class="section-label">
+                İLETİŞİME GEÇ
+            </span>
+
+            <h2>
+                Bir fikrin mi var?
+                <span>Birlikte geliştirelim.</span>
+            </h2>
+
+            <p>
+                Bir web sitesi, uygulama veya dijital proje üzerinde
+                çalışmak istiyorsan benimle iletişime geçebilirsin.
+                Fikrini konuşalım ve birlikte hayata geçirelim.
+            </p>
+
+
+            <a
+                href="mailto:mailadresin@gmail.com"
+                class="contact-mail"
+            >
+                <div class="contact-mail-icon">
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+
+                <div>
+                    <span>E-POSTA</span>
+                    <strong>mailadresin@gmail.com</strong>
+                </div>
+
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+
+
+            <div class="contact-socials">
+
+                <a href="#" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                    GitHub
+                </a>
+
+                <a href="#" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    LinkedIn
+                </a>
+
+                <a href="#" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                    Instagram
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- SAĞ TARAF / FORM -->
+        <div class="contact-form-wrapper  reveal-right">
+
+            <div class="form-top">
+
+                <span>Yeni Proje</span>
+
+                <div class="available">
+                    <span class="available-dot"></span>
+                    İletişime Açık
+                </div>
+
+            </div>
+
+
+            <form class="contact-form" id="contactForm">
+
+                <input
+             type="hidden"
+             name="access_key"
+            value="671576d2-97dd-4465-af27-1759730d8892"
+                >
+               <input
+        type="hidden"
+        name="from_name"
+        value="Berkay Portfolio"
+    >
+
+    <input
+        type="hidden"
+        name="subject"
+        value="Portfolio - Yeni İletişim Mesajı"
+    >
+
+    <input
+        type="checkbox"
+        name="botcheck"
+        style="display: none;"
+    >
+
+                <div class="form-row">
+
+                    <div class="form-group">
+                        <label for="name">İsim</label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Adınız"
+                            required
+                        >
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="email">E-posta</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="....@mail.com"
+                        >
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="subject">
+                        Proje Konusu
+                    </label>
+
+                  <input
+        type="text"
+        id="project"
+        name="project"
+        placeholder="Web sitesi, uygulama..."
+        required
+>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">
+                        Mesajınız
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Projenizden biraz bahsedin..."
+                        required
+                    ></textarea>
+
+                </div>
+
+
+                <button type="submit" 
+                class="send-btn"
+                id="submitBtn"
+                >
+
+                    <span>Mesaj Gönder</span>
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </button>
+                <p class="form-status" id="formStatus"></p>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+    </main>
+
+
+
+    <footer class="footer">
+
+    <div class="footer-top">
+
+        <a href="#home" class="footer-logo">
+            BD<span>.</span>
+        </a>
+
+        <p>
+            Tasarla. Kodla. Geliştir.
+        </p>
+
+        <a href="#home" class="back-top">
+            Yukarı Dön
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Berkay. Tüm hakları saklıdır.
+        </p>
+
+        <p>
+            HTML • CSS • JavaScript ile geliştirildi.
+        </p>
+
+    </div>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
